@@ -3,3 +3,5 @@
 # Example: 1700000000|EURUSD OTC BUY M1 12:30
 # 
 # Live signals will appear below:
+
+1761326196|TEST EURUSD OTC BUY M1
