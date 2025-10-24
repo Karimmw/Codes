@@ -15,3 +15,4 @@
 1761326925|{"asset":"EURGBP","assetSearch":"EURGBP","isOTC":false,"direction":"BUY","time":"16:20","expiry":"M1","minute":980,"rawText":"EURGBP BUY M1 16:20"}
 1761327549|{"asset":"EURUSD OTC","assetSearch":"EURUSD","isOTC":true,"direction":"BUY","time":"12:30","expiry":"M1","minute":750,"rawText":"EURUSD OTC BUY M1 12:30"}
 1761327550|{"asset":"GBPUSD","assetSearch":"GBPUSD","isOTC":false,"direction":"SELL","time":"14:45","expiry":"M1","minute":885,"rawText":"GBPUSD SELL M1 14:45"}
+1761327551|{"asset":"USDJPY","assetSearch":"USDJPY","isOTC":false,"direction":"BUY","time":"09:15","expiry":"M5","minute":555,"rawText":"USDJPY BUY M5 09:15"}
