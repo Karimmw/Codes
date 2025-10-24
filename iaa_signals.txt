@@ -1,0 +1,5 @@
+# Infinity AI Signals Feed
+# Format: TIMESTAMP|SIGNAL_DATA
+# Example: 1700000000|EURUSD OTC BUY M1 12:30
+# 
+# Live signals will appear below:
