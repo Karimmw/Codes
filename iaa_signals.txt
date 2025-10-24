@@ -4,18 +4,10 @@
 # 
 # Live signals will appear below:
 
-1761326883|{"asset":"EURUSD OTC","assetSearch":"EURUSD","isOTC":true,"direction":"BUY","time":"12:30","expiry":"M1","minute":750,"rawText":"EURUSD OTC BUY M1 12:30"}
-1761326884|{"asset":"GBPUSD","assetSearch":"GBPUSD","isOTC":false,"direction":"SELL","time":"14:45","expiry":"M1","minute":885,"rawText":"GBPUSD SELL M1 14:45"}
-1761326884|{"asset":"USDJPY","assetSearch":"USDJPY","isOTC":false,"direction":"BUY","time":"09:15","expiry":"M5","minute":555,"rawText":"USDJPY BUY M5 09:15"}
-1761326885|{"asset":"XAUUSD OTC","assetSearch":"XAUUSD","isOTC":true,"direction":"SELL","time":"20:29","expiry":"M1","minute":1229,"rawText":"XAUUSD OTC SELL M1"}
-1761326885|{"asset":"EURGBP","assetSearch":"EURGBP","isOTC":false,"direction":"BUY","time":"16:20","expiry":"M1","minute":980,"rawText":"EURGBP BUY M1 16:20"}
-1761326922|{"asset":"EURUSD OTC","assetSearch":"EURUSD","isOTC":true,"direction":"BUY","time":"12:30","expiry":"M1","minute":750,"rawText":"EURUSD OTC BUY M1 12:30"}
-1761326923|{"asset":"GBPUSD","assetSearch":"GBPUSD","isOTC":false,"direction":"SELL","time":"14:45","expiry":"M1","minute":885,"rawText":"GBPUSD SELL M1 14:45"}
-1761326924|{"asset":"XAUUSD OTC","assetSearch":"XAUUSD","isOTC":true,"direction":"SELL","time":"20:29","expiry":"M1","minute":1229,"rawText":"XAUUSD OTC SELL M1"}
-1761326925|{"asset":"EURGBP","assetSearch":"EURGBP","isOTC":false,"direction":"BUY","time":"16:20","expiry":"M1","minute":980,"rawText":"EURGBP BUY M1 16:20"}
 1761327549|{"asset":"EURUSD OTC","assetSearch":"EURUSD","isOTC":true,"direction":"BUY","time":"12:30","expiry":"M1","minute":750,"rawText":"EURUSD OTC BUY M1 12:30"}
 1761327550|{"asset":"GBPUSD","assetSearch":"GBPUSD","isOTC":false,"direction":"SELL","time":"14:45","expiry":"M1","minute":885,"rawText":"GBPUSD SELL M1 14:45"}
 1761327551|{"asset":"USDJPY","assetSearch":"USDJPY","isOTC":false,"direction":"BUY","time":"09:15","expiry":"M5","minute":555,"rawText":"USDJPY BUY M5 09:15"}
 1761327551|{"asset":"XAUUSD OTC","assetSearch":"XAUUSD","isOTC":true,"direction":"SELL","time":"20:40","expiry":"M1","minute":1240,"rawText":"XAUUSD OTC SELL M1"}
 1761327552|{"asset":"EURGBP","assetSearch":"EURGBP","isOTC":false,"direction":"BUY","time":"16:20","expiry":"M1","minute":980,"rawText":"EURGBP BUY M1 16:20"}
 1761327635|{"asset":"EURUSD OTC","assetSearch":"EURUSD","isOTC":true,"direction":"BUY","time":"12:35","expiry":"M1","minute":755,"rawText":"TEST EURUSD OTC BUY M1 12:35"}
+1761327868|{"asset":"INFINI","assetSearch":"INFINI","isOTC":false,"direction":"SELL","time":"14:46","expiry":"M1","minute":886,"rawText":"INFINITY AI Signals :-join channel now!  \n\n\n\nPair: EURUSD-OTC\nEXP: M1\n?? 14:46:00\n? SELL"}
