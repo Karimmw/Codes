@@ -5,3 +5,4 @@
 # Live signals will appear below:
 
 1761326196|TEST EURUSD OTC BUY M1
+1761326883|{"asset":"EURUSD OTC","assetSearch":"EURUSD","isOTC":true,"direction":"BUY","time":"12:30","expiry":"M1","minute":750,"rawText":"EURUSD OTC BUY M1 12:30"}
