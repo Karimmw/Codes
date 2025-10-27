@@ -1,6 +1,6 @@
 {
-  "pair": "AUDNZD-OTC",
-  "expiry": "M1",
-  "direction": "BUY",
-  "fire_time_hint": "12:53:00"
+  "pair": null,
+  "expiry": null,
+  "direction": null,
+  "fire_time_hint": null
 }
