@@ -1,6 +1,6 @@
 {
-  "pair": "AUDUSD-OTC",
+  "pair": "AUDNZD-OTC",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "13:13:00"
+  "direction": "BUY",
+  "fire_time_hint": "13:15:00"
 }
