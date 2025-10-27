@@ -1,7 +1,11 @@
 {
-  "text": "INFINITY AI Signals :WIN ??",
-  "timestamp_unix": 1761576722,
+  "text": "INFINITY AI Signals : ??  \n\n\n\nPair: AUDNZD-OTC\nEXP: M1\n?? 11:57:00\n? BUY",
+  "timestamp_unix": 1761576921,
   "channel_id": -1002937172746,
-  "message_id": 20873,
-  "source": "telegram"
+  "message_id": 20874,
+  "source": "telegram",
+  "pair": "AUDNZD-OTC",
+  "expiry": "M1",
+  "direction": "BUY",
+  "fire_time_hint": "11:57:00"
 }
