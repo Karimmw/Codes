@@ -1,6 +1,6 @@
 {
-  "pair": "EURUSD-OTC",
-  "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "12:21:00"
+  "pair": null,
+  "expiry": null,
+  "direction": null,
+  "fire_time_hint": null
 }
