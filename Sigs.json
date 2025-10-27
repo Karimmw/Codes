@@ -1,6 +1,6 @@
 {
-  "pair": null,
-  "expiry": null,
-  "direction": null,
-  "fire_time_hint": null
+  "pair": "CADCHF-OTC",
+  "expiry": "M1",
+  "direction": "SELL",
+  "fire_time_hint": "13:35:00"
 }
