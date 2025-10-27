@@ -1,6 +1,6 @@
 {
-  "pair": "UAHUSD-OTC",
-  "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "12:34:00"
+  "pair": null,
+  "expiry": null,
+  "direction": null,
+  "fire_time_hint": null
 }
