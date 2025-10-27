@@ -1,6 +1,6 @@
 {
-  "pair": "EURCHF-OTC",
-  "expiry": "M1",
-  "direction": "BUY",
-  "fire_time_hint": "13:57:00"
+  "pair": null,
+  "expiry": null,
+  "direction": null,
+  "fire_time_hint": null
 }
