@@ -1,6 +1,6 @@
 {
-  "pair": null,
-  "expiry": null,
-  "direction": null,
-  "fire_time_hint": null
+  "pair": "AUDUSD-OTC",
+  "expiry": "M1",
+  "direction": "SELL",
+  "fire_time_hint": "13:13:00"
 }
