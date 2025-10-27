@@ -1,6 +1,6 @@
 {
-  "pair": "EURUSD-OTC",
+  "pair": "CHFJPY-OTC",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "14:37:00"
+  "direction": "BUY",
+  "fire_time_hint": "14:39:00"
 }
