@@ -1,6 +1,6 @@
 {
-  "pair": "CADCHF-OTC",
+  "pair": "AUDNZD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "12:06:00"
+  "fire_time_hint": "12:13:00"
 }
