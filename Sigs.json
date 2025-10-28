@@ -1,8 +1,8 @@
 {
-  "pair": "EURRUB-OTC",
+  "pair": "CHFNOK-OTC",
   "expiry": "M1",
-  "direction": "BUY",
-  "fire_time_hint": "02:22:00",
-  "timestamp": "2025-10-28T05:21:01.222Z",
-  "message_id": 661
+  "direction": "SELL",
+  "fire_time_hint": "02:29:00",
+  "timestamp": "2025-10-28T05:27:56.941Z",
+  "message_id": 663
 }
