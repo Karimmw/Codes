@@ -1,7 +1,7 @@
 {
-  "pair": "AUDCHF",
+  "pair": "EURJPY",
   "expiry": "M1",
-  "direction": "BUY",
-  "fireTime": "11:46:00",
+  "direction": "SELL",
+  "fireTime": "11:54:00",
   "otc": "No"
 }
