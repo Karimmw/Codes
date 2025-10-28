@@ -2,7 +2,6 @@
   "name": "telegram-signal-bot",
   "version": "1.0.0",
   "description": "Instant Telegram signal processor",
-  "main": "index.js",
   "scripts": {
     "dev": "vercel dev"
   },
