@@ -1,7 +1,7 @@
 // api/telegram.js
 const GITHUB_OWNER = "Karimmw";
 const GITHUB_REPO = "Codes";
-const TARGET_PATH = "Sigs.json";
+const TARGET_PATH = "codes/Sigs.json";
 const BRANCH = "main";
 
 export default async function handler(req, res) {
