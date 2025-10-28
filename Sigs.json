@@ -1,8 +1,8 @@
 {
-  "pair": "LBPUSD-OTC",
+  "pair": "USDSGD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "04:10:00",
-  "timestamp": "2025-10-28T07:08:56.692Z",
-  "message_id": 691
+  "fire_time_hint": "04:17:00",
+  "timestamp": "2025-10-28T07:15:59.240Z",
+  "message_id": 693
 }
