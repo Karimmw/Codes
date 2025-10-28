@@ -1,8 +1,8 @@
 {
-  "pair": "LBPUSD-OTC",
+  "pair": "OMRCNY-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "05:55:00",
-  "timestamp": "2025-10-28T08:53:56.981Z",
-  "message_id": 723
+  "fire_time_hint": "06:03:00",
+  "timestamp": "2025-10-28T09:02:00.499Z",
+  "message_id": 725
 }
