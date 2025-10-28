@@ -1,8 +1,8 @@
 {
-  "pair": "AUDCHF-OTC",
+  "pair": "CHFJPY-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "05:03:00",
-  "timestamp": "2025-10-28T08:01:57.742Z",
-  "message_id": 707
+  "fire_time_hint": "05:10:00",
+  "timestamp": "2025-10-28T08:08:57.324Z",
+  "message_id": 709
 }
