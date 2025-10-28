@@ -1,8 +1,8 @@
 {
-  "pair": "EURUSD-OTC",
+  "pair": "LBPUSD-OTC",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "05:37:00",
-  "timestamp": "2025-10-28T08:35:56.517Z",
-  "message_id": 717
+  "direction": "BUY",
+  "fire_time_hint": "05:43:00",
+  "timestamp": "2025-10-28T08:41:59.678Z",
+  "message_id": 719
 }
