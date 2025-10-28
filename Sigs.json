@@ -1,8 +1,8 @@
 {
-  "pair": "KESUSD-OTC",
+  "pair": "CHFJPY-OTC",
   "expiry": "M1",
-  "direction": "BUY",
-  "fire_time_hint": "07:37:00",
-  "timestamp": "2025-10-28T10:35:57.754Z",
-  "message_id": 749
+  "direction": "SELL",
+  "fire_time_hint": "07:45:00",
+  "timestamp": "2025-10-28T10:43:57.675Z",
+  "message_id": 751
 }
