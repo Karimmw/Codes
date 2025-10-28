@@ -1,8 +1,8 @@
 {
-  "pair": "OMRCNY-OTC",
+  "pair": "KESUSD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "07:59:00",
-  "timestamp": "2025-10-28T10:57:57.586Z",
-  "message_id": 755
+  "fire_time_hint": "08:07:00",
+  "timestamp": "2025-10-28T11:05:59.413Z",
+  "message_id": 757
 }
