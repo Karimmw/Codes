@@ -1,8 +1,8 @@
 {
-  "pair": "LBPUSD-OTC",
+  "pair": "USDMXN-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "08:19:00",
-  "timestamp": "2025-10-28T11:17:58.889Z",
-  "message_id": 761
+  "fire_time_hint": "08:26:00",
+  "timestamp": "2025-10-28T11:24:56.762Z",
+  "message_id": 763
 }
