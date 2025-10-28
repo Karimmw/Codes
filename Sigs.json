@@ -1,8 +1,8 @@
 {
-  "pair": "KESUSD-OTC",
+  "pair": "EURUSD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "06:18:00",
-  "timestamp": "2025-10-28T09:16:58.396Z",
-  "message_id": 729
+  "fire_time_hint": "06:26:00",
+  "timestamp": "2025-10-28T09:24:56.772Z",
+  "message_id": 731
 }
