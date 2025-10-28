@@ -1,8 +1,8 @@
 {
-  "pair": "OMRCNY-OTC",
+  "pair": "AUDCHF-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "08:32:00",
-  "timestamp": "2025-10-28T11:30:57.442Z",
-  "message_id": 765
+  "fire_time_hint": "08:38:00",
+  "timestamp": "2025-10-28T11:36:57.365Z",
+  "message_id": 767
 }
