@@ -1,8 +1,8 @@
 {
-  "pair": "USDSGD-OTC",
+  "pair": "CHFJPY-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "04:17:00",
-  "timestamp": "2025-10-28T07:15:59.240Z",
-  "message_id": 693
+  "fire_time_hint": "04:50:00",
+  "timestamp": "2025-10-28T07:48:56.994Z",
+  "message_id": 703
 }
