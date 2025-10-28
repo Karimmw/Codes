@@ -1,8 +1,8 @@
 {
-  "pair": "CHFJPY-OTC",
+  "pair": "OMRCNY-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "05:10:00",
-  "timestamp": "2025-10-28T08:08:57.324Z",
-  "message_id": 709
+  "fire_time_hint": "05:17:00",
+  "timestamp": "2025-10-28T08:15:58.630Z",
+  "message_id": 711
 }
