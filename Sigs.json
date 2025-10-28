@@ -1,8 +1,8 @@
 {
-  "pair": "AUDUSD-OTC",
+  "pair": "EURGBP-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "20:37:00",
-  "timestamp": "2025-10-28T00:51:59.461Z",
-  "message_id": 567
+  "fire_time_hint": "21:54:00",
+  "timestamp": "2025-10-28T00:52:59.011Z",
+  "message_id": 591
 }
