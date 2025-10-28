@@ -1,4 +1,4 @@
-// api/telegram.js - Fixed ES Module version
+// api/telegram.js - Updated for your message format
 import { Buffer } from 'buffer';
 
 const GITHUB_OWNER = "Karimmw";
@@ -24,7 +24,8 @@ export default async function handler(req, res) {
     const text = message.text || message.caption || '';
     const messageId = message.message_id;
     
-    console.log(`Processing message ${messageId}: ${text.substring(0, 100)}`);
+    console.log('Full message:', text);
+    console.log(`Processing message ${messageId}`);
 
     // Parse signal
     const parsed = parseSignalFields(text);
@@ -36,7 +37,8 @@ export default async function handler(req, res) {
       return res.status(200).json({ success: true, pair: parsed.pair });
     } else {
       console.log('❌ Missing required fields');
-      return res.status(200).json({ skipped: true });
+      console.log('Available fields:', { pair: parsed.pair, direction: parsed.direction });
+      return res.status(200).json({ skipped: true, reason: 'Missing pair or direction' });
     }
 
   } catch (error) {
@@ -47,48 +49,67 @@ export default async function handler(req, res) {
 
 function parseSignalFields(rawText) {
   const result = { pair: null, expiry: null, direction: null, fireTime: null };
-  const lines = rawText.split('\n').map(l => l.trim()).filter(l => l);
+  
+  console.log('Raw text for parsing:', rawText);
 
-  // Pair
+  // Clean the text and split into lines
+  const lines = rawText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+
+  console.log('Lines:', lines);
+
+  // 1. Pair - improved to handle your format
   for (let line of lines) {
-    const pairMatch = line.match(/pair\s*:\s*([A-Z]{6}-?[A-Z]{3})/i);
+    // Match "Pair: EURCAD" or "Pair: CHFJPY-OTC"
+    const pairMatch = line.match(/pair\s*:\s*([A-Z]{6}(-OTC)?)/i);
     if (pairMatch) {
       result.pair = pairMatch[1].toUpperCase();
+      console.log('Found pair:', result.pair);
       break;
     }
   }
 
-  // Expiry
+  // 2. Expiry - improved to handle your format
   for (let line of lines) {
+    // Match "EXP: M1"
     const expiryMatch = line.match(/exp\s*:\s*([MW]\d+)/i);
     if (expiryMatch) {
       result.expiry = expiryMatch[1].toUpperCase();
+      console.log('Found expiry:', result.expiry);
       break;
     }
   }
 
-  // Direction
+  // 3. Direction - improved to handle emojis and your format
   for (let line of lines) {
-    const upper = line.toUpperCase();
-    if (upper.includes('BUY') || upper.includes('CALL') || /\bBU\b/.test(upper)) {
+    const cleanLine = line.replace(/[🔽🔼▶️▼▲▶🟢🔴]/g, '').trim(); // Remove direction emojis
+    const upperLine = cleanLine.toUpperCase();
+    
+    console.log('Checking line for direction:', cleanLine);
+    
+    if (upperLine.includes('BUY') || upperLine.includes('CALL') || /\bBU\b/.test(upperLine)) {
       result.direction = 'BUY';
+      console.log('Found direction: BUY');
       break;
     }
-    if (upper.includes('SELL') || upper.includes('PUT') || /\bSE\b/.test(upper)) {
+    if (upperLine.includes('SELL') || upperLine.includes('PUT') || /\bSE\b/.test(upperLine)) {
       result.direction = 'SELL';
+      console.log('Found direction: SELL');
       break;
     }
   }
 
-  // Fire time
+  // 4. Fire time - improved to handle clock emoji
   for (let line of lines) {
-    const timeMatch = line.match(/(\d{2}:\d{2}:\d{2})/);
+    // Match "⌚️ 10:03:00" or "10:03:00"
+    const timeMatch = line.match(/(\d{1,2}:\d{2}:\d{2})/);
     if (timeMatch) {
       result.fireTime = timeMatch[1];
+      console.log('Found fire time:', result.fireTime);
       break;
     }
   }
 
+  console.log('Final parsed result:', result);
   return result;
 }
 
@@ -108,6 +129,10 @@ async function updateGitHub(signalData, messageId) {
   if (getResponse.status === 200) {
     const fileData = await getResponse.json();
     sha = fileData.sha;
+    console.log('Found existing file with SHA:', sha);
+  } else if (getResponse.status !== 404) {
+    const errorText = await getResponse.text();
+    throw new Error(`GitHub GET failed: ${getResponse.status} - ${errorText}`);
   }
 
   // Prepare content
@@ -128,6 +153,8 @@ async function updateGitHub(signalData, messageId) {
 
   if (sha) payload.sha = sha;
 
+  console.log('Updating GitHub with:', payloadObj);
+
   const putResponse = await fetch(url, {
     method: 'PUT',
     headers: headers,
@@ -135,6 +162,9 @@ async function updateGitHub(signalData, messageId) {
   });
 
   if (putResponse.status !== 200 && putResponse.status !== 201) {
-    throw new Error(`GitHub error: ${putResponse.status}`);
+    const errorText = await putResponse.text();
+    throw new Error(`GitHub PUT failed: ${putResponse.status} - ${errorText}`);
   }
+
+  console.log('✅ GitHub file updated successfully');
 }
