@@ -1,4 +1,4 @@
-// api/telegram.js - Main webhook handler
+// telegram.js - Main webhook handler (root directory)
 const GITHUB_OWNER = "Karimmw";
 const GITHUB_REPO = "Codes";
 const TARGET_PATH = "Sigs.json";
