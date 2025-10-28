@@ -1,8 +1,8 @@
 {
-  "pair": "EURUSD-OTC",
+  "pair": "USDARS-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "07:07:00",
-  "timestamp": "2025-10-28T10:05:57.329Z",
-  "message_id": 741
+  "fire_time_hint": "07:15:00",
+  "timestamp": "2025-10-28T10:13:59.591Z",
+  "message_id": 743
 }
