@@ -1,8 +1,8 @@
 {
-  "pair": "USDCOP-OTC",
+  "pair": "EURUSD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "06:59:00",
-  "timestamp": "2025-10-28T09:57:58.657Z",
-  "message_id": 739
+  "fire_time_hint": "07:07:00",
+  "timestamp": "2025-10-28T10:05:57.329Z",
+  "message_id": 741
 }
