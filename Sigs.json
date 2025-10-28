@@ -1,7 +1,7 @@
 {
-  "pair": "GBPAUD",
+  "pair": "CADCHF",
   "expiry": "M1",
-  "direction": "SELL",
-  "fireTime": "11:22:00",
+  "direction": "BUY",
+  "fireTime": "11:29:00",
   "otc": "No"
 }
