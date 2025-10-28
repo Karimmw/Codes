@@ -1,8 +1,8 @@
 {
-  "pair": "AUDNZD-OTC",
+  "pair": "AUDCAD-OTC",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "22:03:00",
-  "timestamp": "2025-10-28T01:01:57.214Z",
-  "message_id": 593
+  "direction": "BUY",
+  "fire_time_hint": "22:09:00",
+  "timestamp": "2025-10-28T01:07:56.568Z",
+  "message_id": 595
 }
