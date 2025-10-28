@@ -1,8 +1,8 @@
 {
-  "pair": "EURGBP-OTC",
+  "pair": "AUDCAD-OTC",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "23:32:00",
-  "timestamp": "2025-10-28T02:31:59.547Z",
-  "message_id": 617
+  "direction": "BUY",
+  "fire_time_hint": "23:40:00",
+  "timestamp": "2025-10-28T02:38:56.973Z",
+  "message_id": 619
 }
