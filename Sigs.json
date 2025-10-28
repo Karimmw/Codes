@@ -1,8 +1,8 @@
 {
-  "pair": "GBPAUD-OTC",
+  "pair": "USDARS-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "02:43:00",
-  "timestamp": "2025-10-28T05:41:56.790Z",
-  "message_id": 667
+  "fire_time_hint": "02:50:00",
+  "timestamp": "2025-10-28T05:48:56.990Z",
+  "message_id": 669
 }
