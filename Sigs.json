@@ -1,8 +1,8 @@
 {
-  "pair": "USDJPY-OTC",
+  "pair": "CADCHF",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "08:59:00",
-  "timestamp": "2025-10-28T12:01:06.429Z",
-  "message_id": 775
+  "direction": "BUY",
+  "fireTime": "10:15:00",
+  "timestamp": "2025-10-28T13:18:28.694Z",
+  "message_id": 21276
 }
