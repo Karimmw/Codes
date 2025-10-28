@@ -1,8 +1,8 @@
 {
-  "pair": "AUDCHF-OTC",
+  "pair": "USDARS-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "03:11:00",
-  "timestamp": "2025-10-28T06:09:56.685Z",
-  "message_id": 675
+  "fire_time_hint": "03:19:00",
+  "timestamp": "2025-10-28T06:17:56.909Z",
+  "message_id": 677
 }
