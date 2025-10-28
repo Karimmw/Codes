@@ -1,8 +1,8 @@
 {
-  "pair": "CHFNOK-OTC",
+  "pair": "AUDCHF-OTC",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "02:29:00",
-  "timestamp": "2025-10-28T05:27:56.941Z",
-  "message_id": 663
+  "direction": "BUY",
+  "fire_time_hint": "02:37:00",
+  "timestamp": "2025-10-28T05:35:56.774Z",
+  "message_id": 665
 }
