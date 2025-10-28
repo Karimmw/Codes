@@ -1,8 +1,8 @@
 {
-  "pair": "USDARS-OTC",
+  "pair": "USDJPY-OTC",
   "expiry": "M1",
-  "direction": "BUY",
-  "fire_time_hint": "08:58:00",
-  "timestamp": "2025-10-28T11:57:00.442Z",
-  "message_id": 773
+  "direction": "SELL",
+  "fire_time_hint": "08:59:00",
+  "timestamp": "2025-10-28T12:01:06.429Z",
+  "message_id": 775
 }
