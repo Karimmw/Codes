@@ -1,7 +1,7 @@
 {
-  "pair": "CADCHF",
+  "pair": "CHFJPY",
   "expiry": "M1",
-  "direction": "BUY",
-  "fireTime": "11:29:00",
+  "direction": "SELL",
+  "fireTime": "11:36:00",
   "otc": "No"
 }
