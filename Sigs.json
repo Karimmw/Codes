@@ -1,8 +1,8 @@
 {
-  "pair": "USDMXN-OTC",
+  "pair": "GBPUSD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "07:22:00",
-  "timestamp": "2025-10-28T10:20:58.090Z",
-  "message_id": 745
+  "fire_time_hint": "07:30:00",
+  "timestamp": "2025-10-28T10:28:56.966Z",
+  "message_id": 747
 }
