@@ -1,8 +1,8 @@
 {
-  "pair": "EURGBP-OTC",
+  "pair": "AUDNZD-OTC",
   "expiry": "M1",
-  "direction": "BUY",
-  "fire_time_hint": "21:54:00",
-  "timestamp": "2025-10-28T00:52:59.011Z",
-  "message_id": 591
+  "direction": "SELL",
+  "fire_time_hint": "22:03:00",
+  "timestamp": "2025-10-28T01:01:57.214Z",
+  "message_id": 593
 }
