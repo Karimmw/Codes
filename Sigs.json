@@ -1,8 +1,8 @@
 {
-  "pair": "GBPUSD-OTC",
+  "pair": "USDCOP-OTC",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "03:46:00",
-  "timestamp": "2025-10-28T06:44:56.439Z",
-  "message_id": 685
+  "direction": "BUY",
+  "fire_time_hint": "03:54:00",
+  "timestamp": "2025-10-28T06:52:58.443Z",
+  "message_id": 687
 }
