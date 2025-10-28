@@ -1,4 +1,4 @@
-// api/telegram.js - Updated for your message format
+// api/telegram.js - Updated with OTC detection and clean output
 import { Buffer } from 'buffer';
 
 const GITHUB_OWNER = "Karimmw";
@@ -32,8 +32,8 @@ export default async function handler(req, res) {
     console.log('Parsed:', parsed);
 
     if (parsed.pair && parsed.direction) {
-      await updateGitHub(parsed, messageId);
-      console.log(`✅ Success: ${parsed.pair} ${parsed.direction}`);
+      await updateGitHub(parsed);
+      console.log(`✅ Success: ${parsed.pair} ${parsed.direction} OTC:${parsed.otc}`);
       return res.status(200).json({ success: true, pair: parsed.pair });
     } else {
       console.log('❌ Missing required fields');
@@ -48,7 +48,13 @@ export default async function handler(req, res) {
 }
 
 function parseSignalFields(rawText) {
-  const result = { pair: null, expiry: null, direction: null, fireTime: null };
+  const result = { 
+    pair: null, 
+    expiry: null, 
+    direction: null, 
+    fireTime: null,
+    otc: "No" // Default to "No"
+  };
   
   console.log('Raw text for parsing:', rawText);
 
@@ -57,13 +63,23 @@ function parseSignalFields(rawText) {
 
   console.log('Lines:', lines);
 
-  // 1. Pair - improved to handle your format
+  // 1. Pair - improved to handle your format and detect OTC
   for (let line of lines) {
     // Match "Pair: EURCAD" or "Pair: CHFJPY-OTC"
     const pairMatch = line.match(/pair\s*:\s*([A-Z]{6}(-OTC)?)/i);
     if (pairMatch) {
       result.pair = pairMatch[1].toUpperCase();
-      console.log('Found pair:', result.pair);
+      
+      // Detect OTC - check if pair contains "-OTC"
+      if (result.pair.includes('-OTC')) {
+        result.otc = "Yes";
+        // Remove -OTC from pair name for cleaner output
+        result.pair = result.pair.replace('-OTC', '');
+      } else {
+        result.otc = "No";
+      }
+      
+      console.log('Found pair:', result.pair, 'OTC:', result.otc);
       break;
     }
   }
@@ -113,7 +129,7 @@ function parseSignalFields(rawText) {
   return result;
 }
 
-async function updateGitHub(signalData, messageId) {
+async function updateGitHub(signalData) {
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
   if (!GITHUB_TOKEN) throw new Error('No GitHub token');
 
@@ -135,25 +151,27 @@ async function updateGitHub(signalData, messageId) {
     throw new Error(`GitHub GET failed: ${getResponse.status} - ${errorText}`);
   }
 
-  // Prepare content
+  // Prepare clean content - ONLY the essential fields
   const payloadObj = {
-    ...signalData,
-    timestamp: new Date().toISOString(),
-    message_id: messageId
+    pair: signalData.pair,
+    expiry: signalData.expiry,
+    direction: signalData.direction,
+    fireTime: signalData.fireTime,
+    otc: signalData.otc
   };
 
   const content = JSON.stringify(payloadObj, null, 2);
   const encoded = Buffer.from(content).toString('base64');
 
   const payload = {
-    message: `Signal: ${signalData.pair} - ${new Date().toISOString()}`,
+    message: `Signal: ${signalData.pair} ${signalData.direction} ${signalData.otc === 'Yes' ? 'OTC' : ''}`,
     content: encoded,
     branch: BRANCH
   };
 
   if (sha) payload.sha = sha;
 
-  console.log('Updating GitHub with:', payloadObj);
+  console.log('Updating GitHub with clean data:', payloadObj);
 
   const putResponse = await fetch(url, {
     method: 'PUT',
