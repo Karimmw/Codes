@@ -1,8 +1,8 @@
 {
-  "pair": "CHFJPY-OTC",
+  "pair": "QARCNY-OTC",
   "expiry": "M1",
-  "direction": "SELL",
-  "fire_time_hint": "06:37:00",
-  "timestamp": "2025-10-28T09:35:56.615Z",
-  "message_id": 733
+  "direction": "BUY",
+  "fire_time_hint": "06:45:00",
+  "timestamp": "2025-10-28T09:44:00.818Z",
+  "message_id": 735
 }
