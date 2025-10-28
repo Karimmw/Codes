@@ -1,5 +1,8 @@
 {
   "name": "signal-bot",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  }
 }
