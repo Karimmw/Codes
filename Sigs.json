@@ -2,6 +2,6 @@
   "pair": "AUDCAD",
   "expiry": "M1",
   "direction": "BUY",
-  "fireTime": "10:56:00",
-  "otc": "No"
+  "fireTime": "11:00:00",
+  "otc": "Yes"
 }
