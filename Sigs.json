@@ -1,8 +1,8 @@
 {
-  "pair": "USDARS-OTC",
+  "pair": "USDMXN-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "07:15:00",
-  "timestamp": "2025-10-28T10:13:59.591Z",
-  "message_id": 743
+  "fire_time_hint": "07:22:00",
+  "timestamp": "2025-10-28T10:20:58.090Z",
+  "message_id": 745
 }
