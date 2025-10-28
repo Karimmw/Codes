@@ -1,7 +1,7 @@
 {
-  "pair": "EURJPY",
+  "pair": "GBPUSD",
   "expiry": "M1",
   "direction": "SELL",
-  "fireTime": "11:54:00",
+  "fireTime": "11:59:00",
   "otc": "No"
 }
