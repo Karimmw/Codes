@@ -1,8 +1,8 @@
 {
-  "pair": "AUDCAD-OTC",
+  "pair": "AUDCHF",
   "expiry": "M1",
   "direction": "BUY",
-  "fireTime": "10:25:00",
-  "timestamp": "2025-10-28T13:23:11.044Z",
-  "message_id": 21278
+  "fireTime": "10:26:00",
+  "timestamp": "2025-10-28T13:24:33.600Z",
+  "message_id": 796
 }
