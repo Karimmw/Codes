@@ -1,8 +1,8 @@
 {
-  "pair": "KESUSD-OTC",
+  "pair": "LBPUSD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "05:24:00",
-  "timestamp": "2025-10-28T08:22:58.904Z",
-  "message_id": 713
+  "fire_time_hint": "05:31:00",
+  "timestamp": "2025-10-28T08:29:56.745Z",
+  "message_id": 715
 }
