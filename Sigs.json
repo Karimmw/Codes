@@ -1,8 +1,8 @@
 {
-  "pair": "USDCHF-OTC",
+  "pair": "EURGBP-OTC",
   "expiry": "M1",
-  "direction": "BUY",
-  "fire_time_hint": "23:21:00",
-  "timestamp": "2025-10-28T02:20:00.842Z",
-  "message_id": 615
+  "direction": "SELL",
+  "fire_time_hint": "23:32:00",
+  "timestamp": "2025-10-28T02:31:59.547Z",
+  "message_id": 617
 }
