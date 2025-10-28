@@ -1,8 +1,8 @@
 {
-  "pair": "USDMXN-OTC",
+  "pair": "CHFNOK-OTC",
   "expiry": "M1",
-  "direction": "BUY",
-  "fire_time_hint": "01:10:00",
-  "timestamp": "2025-10-28T04:08:56.784Z",
-  "message_id": 639
+  "direction": "SELL",
+  "fire_time_hint": "01:18:00",
+  "timestamp": "2025-10-28T04:16:57.168Z",
+  "message_id": 641
 }
