@@ -1,8 +1,8 @@
 {
-  "pair": "USDCOP-OTC",
+  "pair": "KESUSD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "06:12:00",
-  "timestamp": "2025-10-28T09:10:56.742Z",
-  "message_id": 727
+  "fire_time_hint": "06:18:00",
+  "timestamp": "2025-10-28T09:16:58.396Z",
+  "message_id": 729
 }
