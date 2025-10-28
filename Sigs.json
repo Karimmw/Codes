@@ -1,8 +1,8 @@
 {
-  "pair": "AUDCHF-OTC",
+  "pair": "GBPAUD-OTC",
   "expiry": "M1",
   "direction": "BUY",
-  "fire_time_hint": "02:37:00",
-  "timestamp": "2025-10-28T05:35:56.774Z",
-  "message_id": 665
+  "fire_time_hint": "02:43:00",
+  "timestamp": "2025-10-28T05:41:56.790Z",
+  "message_id": 667
 }
