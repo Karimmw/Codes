@@ -1,7 +1,7 @@
 {
-  "pair": "CADCHF",
+  "pair": "AUDCAD",
   "expiry": "M1",
-  "direction": "BUY",
-  "fireTime": "11:09:00",
+  "direction": "SELL",
+  "fireTime": "11:16:00",
   "otc": "No"
 }
