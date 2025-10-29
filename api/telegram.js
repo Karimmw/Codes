@@ -1,14 +1,14 @@
-// api/telegram.js - Simple forwarder to DigitalOcean mirror
+// api/telegram.js - Updated for new server IP
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).end();
   }
   
   try {
-    console.log('📨 Received Telegram webhook - forwarding to mirror');
+    console.log('📨 Received Telegram webhook - forwarding to NEW server');
     
-    // Forward to DigitalOcean mirror server
-    const response = await fetch('http://167.99.102.14:3000/webhook/telegram', {
+    // Forward to NEW DigitalOcean server
+    const response = await fetch('http://165.227.216.188:3000/webhook/telegram', {
       method: 'POST',
       headers: { 
         'Content-Type': 'application/json'
@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     });
     
     const result = await response.json();
-    console.log('✅ Mirror server response:', result);
+    console.log('✅ NEW Server response:', result);
     
     res.status(200).json(result);
   } catch (error) {
