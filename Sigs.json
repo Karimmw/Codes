@@ -1,6 +1,6 @@
 {
-  "raw_message": "So to update you on the sniper workflow \n\nNow am concentrating my time more on it \nJust to finalize it so we can put more effort and time on the MT5 \n\n\nDetecting the real moving price was the first challenge which ( of course 😌🤓) we fixed it without being flagged as bot ( ban risk free) \n\nThe bot is capable now if doing any asset / market at any time \n\nWe managed to make the bot smart enough to : \n- follow the price movement ( will be showing on the UI) \n- compute 5 diffirent time frame at the same time :15s,1m,5m and 15m 😈\n- Rebuilding the candle structures of each time frame 😈\n- Apply our own strategy of trading  \n- Detect and control the expiry time of each signal 🤓\n\n\nSo basically , your typical Pocketoption shart is useless for the bot , #SniperAI is building 5 charts at the same time and running parallel analysis on each one of them , turning pocketoption website to 5 Tradingview charts + indicators all combined 😱😱😱🦾🦾\n\nWhat we have seen so far testing the system \n\nFirst run was weak , so we enhanced the 15s trading analysis to match the time frame and price movelent , now it is giving a good result 💰👌\n\nWe can see that the bot is not willing by itself to open above tge 5 minutes expiry time , and weak signals at 3m expiry time: we are working on it and on its trading logic hence we are stuck putting all our effort to master these parts!! \n\nI used and i will always stay clear and transparent with you 🫵 \n\nRest assured that : OUR BUILDS ARE UNIQUE and no one will be able to copy us ! 👌",
-  "timestamp": "2025-12-21T13:20:09.279Z",
-  "message_timestamp": 1766323209,
-  "server_processed": "2025-12-21T13:20:09.279Z"
+  "raw_message": "INFINITY AI Signals : ♾️  \n\n\n\nPair: USDARS-OTC\nEXP: M1\n⌚️ 10:25:00\n🔼 BUY",
+  "timestamp": "2025-12-21T13:23:35.631Z",
+  "message_timestamp": 1766323415,
+  "server_processed": "2025-12-21T13:23:35.631Z"
 }
