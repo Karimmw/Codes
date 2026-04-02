@@ -1,6 +1,6 @@
 {
-  "raw_message": "INFINITY AI: Pair: EURGBP-OTC\n⏰Entry time 15:45\n⌛️Expiry 1 Min\n🟢 BUY",
-  "timestamp": "2026-04-02T12:44:04.077Z",
-  "message_timestamp": 1775133843,
-  "server_processed": "2026-04-02T12:44:04.077Z"
+  "raw_message": "INFINITY AI: Pair: AUDCAD-OTC\n⏰Entry time 15:51\n⌛️Expiry 1 Min\n🔴 SELL",
+  "timestamp": "2026-04-02T12:50:03.879Z",
+  "message_timestamp": 1775134203,
+  "server_processed": "2026-04-02T12:50:03.879Z"
 }
