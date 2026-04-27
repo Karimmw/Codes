@@ -1,6 +1,6 @@
 {
-  "raw_message": "INFINITY AI: Pair: NZDUSD-OTC\n⏰Entry time 05:18\n⌛️Expiry 1 Min\n🟢 BUY",
-  "timestamp": "2026-04-27T02:17:03.064Z",
-  "message_timestamp": 1777256222,
-  "server_processed": "2026-04-27T02:17:03.064Z"
+  "raw_message": "INFINITY AI: Pair: NZDUSD-OTC\n⏰Entry time 05:23\n⌛️Expiry 1 Min\n🔴 SELL",
+  "timestamp": "2026-04-27T02:22:03.086Z",
+  "message_timestamp": 1777256522,
+  "server_processed": "2026-04-27T02:22:03.086Z"
 }
