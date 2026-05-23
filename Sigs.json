@@ -1,6 +1,6 @@
 {
-  "raw_message": "INFINITY AI: Pair: USDPKR-OTC\n⏰Entry time 05:50\n⌛️Expiry 1 Min\n🟢 BUY",
-  "timestamp": "2026-05-23T02:49:02.338Z",
-  "message_timestamp": 1779504541,
-  "server_processed": "2026-05-23T02:49:02.338Z"
+  "raw_message": "INFINITY AI: Pair: USDPKR-OTC\n⏰Entry time 05:55\n⌛️Expiry 1 Min\n🔴 SELL",
+  "timestamp": "2026-05-23T02:54:02.723Z",
+  "message_timestamp": 1779504842,
+  "server_processed": "2026-05-23T02:54:02.723Z"
 }
